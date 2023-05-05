@@ -1,0 +1,151 @@
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    body {
+      margin: 0px;
+      padding: 0px;
+      height: 100vh;
+      /* display: block; */
+      /* position: absolute; */
+      /* margin: auto; */
+      /* margin: ; */
+      /* display: flex; */
+      /* flex-direction: column; */
+      /* justify-content: center; */
+      /* align-items: center; */
+      font-family: 'poppins', sans-serif;
+      background-color: rgb(236, 236, 236);
+    }
+
+    .container {
+      /* border: 2px solid black; */
+      height: 68%;
+      width: 555px;
+      position: relative;
+      top: 15%;
+      /* position: absolute; */
+      /* z-index: 0; */
+      margin: auto;
+      padding: 0px 50px 0px 50px;
+      background-color: white;
+      border-radius: 15px;
+      border-bottom-right-radius: 150px;
+
+    }
+
+    .choose {
+      display: flex;
+      flex-direction: row;
+      padding: 23px 0px;
+      border-bottom: .8px solid grey;
+      /* margin: 40px; */
+    }
+
+
+    .day,
+    .month,
+    .year {
+      display: flex;
+      flex-direction: column;
+      margin: 15px;
+      margin-bottom: 15px;
+    }
+
+    .day h6,
+    .month h6,
+    .year h6 {
+      font-size: 13px;
+      letter-spacing: 1.5px;
+      opacity: .6;
+      /* font-weight: 900; */
+      margin: 5px 0px;
+    }
+
+    .day {
+      margin-left: 0px;
+    }
+
+
+    .day input,
+    .month input,
+    .year input {
+      font-size: 25px;
+      font-weight: 700;
+      width: 85px;
+      height: 60px;
+      padding: 0px 20px;
+      margin: 0px;
+      border: 1px solid lightgrey;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .arrow button{
+      width: fit-content;
+      height: fit-content;
+      position: relative;
+      left: 500px;
+      bottom: 37px;
+      cursor: pointer;
+      border-radius: 100%;
+      padding: 14px;
+      margin: 0px;
+      z-index: 5;
+      border:none;
+      background-color: #754fe9f4;
+    }
+    .arrow button:hover{
+        background-color: black;
+    }
+
+    .display {
+      padding: 24px 0px;
+      position: relative;
+      bottom: 60px;
+    }
+
+    .days,
+    .months,
+    .years {
+      display: flex;
+      flex-direction: row;
+      font-style: italic;
+    }
+
+    .days h6,
+    .days h4,
+    .months h6,
+    .months h4,
+    .years h6,
+    .years h4 {
+      margin: 0px;
+      font-size: 80px;
+      line-height: 80px;
+      /* font-weight: 900; */
+    }
+
+    .days h6,
+    .months h6,
+    .years h6{
+        color: #754fe9f4;
+    }
+
+    .attribution {
+      display: block;
+      position: absolute;
+      bottom: 20px;
+      left: 35%;
+      /* text-align: center;  */
+      /* border: 2px solid black; */
+    }
+
+    /* .days h6,  
+    .months h6,
+    .years h6{
+      /* color: ; */
