@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: hsl(214, 44%, 87%);
+            height: 100vh;
+            margin: 0px;
+            box-sizing: border-box;
+            display: flex;
+            /* align-self: center; */
+            justify-content: center;
+        }
+
+        .container {
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            /* flex-wrap: wrap; */
+            align-self: center;
+            width: 280px;
+            height: 450px;
+            border-radius: 15px;
+            /* display: inlin?e-block; */
+            background-color: white;
+            box-shadow: 3px 3px 10px 0px hsla(219, 15%, 55%, 0.493);
+
+        }
+
+        img {
+            border-radius: 15px;
+            width: 100%;
+        }
+
+        .qr {
+            width: 100%;
+            /* margin-bottom: 10px; */
+            background-color: white;
+        }
+
+        .content {
+            font-family: 'Outfit', sans-serif;
+            /* height: 28%; */
+            width: 100%;
+            box-sizing: border-box;
+            padding-left: 10px;
+            padding-right: 10px;
+            /* margin-bottom: 10px; */
+            text-align: center;
+            font-size: 15px;
+        }
+        .content p{
+            opacity: .5;
+        }
+    </style>
+    <title>Frountend mentor | QR code container</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="qr">
+            <img src="image-qr-code.png" alt="Not Found">
+        </div>
+        <div class="content">
+            <h2>Improve your front-end skills by building projects</h2>
+            <p>Scan this QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+        </div>
+    </div>
+</body>
+
+</html>

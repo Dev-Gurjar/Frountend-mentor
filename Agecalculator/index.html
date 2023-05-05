@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="javascript.js"></script>
+  <title>Frontend Mentor | Age calculator app</title>
+
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- <form action="#"> -->
+
+      <div class="choose">
+        <div class="day">
+          <h6>DAY</h6>
+          <input type="number" id="inday" placeholder="DD">
+        </div>
+        <div class="month">
+          <h6>MONTH</h6>
+          <input type="number" id="inmonth" placeholder="MM">
+        </div>
+        <div class="year">
+          <h6>YEAR</h6>
+          <input type="number" id="inyear" placeholder="YYYY">
+        </div>
+      </div>
+
+      <div class="arrow">
+        <button type="submit" onclick="tri()"><img src="./assets/images/icon-arrow.svg" alt="Not Found"></button>
+      </div>
+    
+
+    <!-- </form> -->
+
+    <div class="display">
+
+      <div class="years">
+        <h6 id="3">--&nbsp;</h6>
+        <h4>years</h4>
+      </div>
+      <div class="months">
+        <h6 id="2">--&nbsp;</h6>
+        <h4>months</h4>
+      </div>
+      <div class="days">
+        <h6 id="1">--&nbsp;</h6>
+        <h4>days</h4>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#"> Gurjar</a>.
+    <!-- <div class="new">
+      <input type="date" id="nas">
+      <button type="submit" id="asdf">asdf</button>
+    </div> -->
+  </div>
+
+</body>
+
+</html>
