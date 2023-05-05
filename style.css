@@ -25,7 +25,7 @@
 
     .container {
       /* border: 2px solid black; */
-      height: 68%;
+      height: 500px;
       width: 555px;
       position: relative;
       top: 15%;
@@ -86,7 +86,7 @@
       cursor: pointer;
     }
 
-    .arrow button{
+    .arrow button {
       width: fit-content;
       height: fit-content;
       position: relative;
@@ -97,11 +97,12 @@
       padding: 14px;
       margin: 0px;
       z-index: 5;
-      border:none;
+      border: none;
       background-color: #754fe9f4;
     }
-    .arrow button:hover{
-        background-color: black;
+
+    .arrow button:hover {
+      background-color: black;
     }
 
     .display {
@@ -132,8 +133,8 @@
 
     .days h6,
     .months h6,
-    .years h6{
-        color: #754fe9f4;
+    .years h6 {
+      color: #754fe9f4;
     }
 
     .attribution {
@@ -149,3 +150,56 @@
     .months h6,
     .years h6{
       /* color: ; */
+
+    @media (max-width:650px) {
+
+      .container {
+        width: 350px;
+        margin: auto;
+        padding: 10px;
+      }
+
+      .choose {
+        margin-bottom: 30px;
+      }
+
+      .day,
+      .month,
+      .year {
+        margin: 5px;
+        margin-bottom: 20px;
+      }
+
+      .day {
+        margin-left: 0px;
+      }
+
+      .day input,
+      .month input,
+      .year input {
+        width: 65px;
+        height: 40px;
+      }
+
+      .arrow button {
+        left: 130px;
+        bottom: 60px;
+
+      }
+
+      .days h6,
+      .days h4,
+      .months h6,
+      .months h4,
+      .years h6,
+      .years h4 {
+        font-size: 60px;
+        line-height: 80px;
+        /* font-weight: 900; */
+      }
+
+      .attribution {
+        left: 15%;
+      }
+
+    }
