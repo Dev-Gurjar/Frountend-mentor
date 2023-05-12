@@ -86,6 +86,11 @@
       cursor: pointer;
     }
 
+    #error1, #error2, #error3{
+      color: crimson;
+      font-size: small;
+    }
+
     .arrow button {
       width: fit-content;
       height: fit-content;
